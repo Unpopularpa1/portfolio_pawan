@@ -1,7 +1,7 @@
 import React from "react";
 import { MapPin, Phone, Mail, Github, Linkedin, Twitter } from "lucide-react";
 import { useState } from "react";
-import { toast } from 'react-toastify';
+
 
 export default function ContactComponent() {
   const [form,setForm] = useState({
@@ -9,47 +9,14 @@ export default function ContactComponent() {
     email: '',
     message: ''
   });
-  const[loading,setLoading] = useState(false);
-  const API_URL = import.meta.env.VITE_API_URL;
+
+
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const validateInput = ()=>{
-    if(form.name === '' || form.email === '' || form.message === ''){
-      return false;
-    }
-    return true;
-  }
 
-  const handelSubmit = async (e)=>{
-    e.preventDefault();
-    if(!validateInput() || loading){
-      toast.error('Please fill all the fields');
-      return;
-    }
-    setLoading(true);
-    try {
-      const response = await fetch(`${API_URL}`, {
-        method: 'POST',
-        body: JSON.stringify(form),
-        headers: { 'Content-Type': 'application/json' }
-      });
-      const data = await response.json();
-      if (data.success) {
-        toast.success('Message sent successfully, I will get back to you soon');
-        setForm({ name: '', email: '', message: '' });
-      } else {
-        toast.error('Failed to send message, please try again');
-      }
-    } catch (error) {
-      console.error('Error sending message:', error);
-      toast.error('Failed to send message, please try again');
-    } finally {
-      setLoading(false);
-    }
-  };
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4">
       <div className="max-w-6xl mx-auto">
@@ -87,10 +54,10 @@ export default function ContactComponent() {
                 <div>
                   <h4 className="font-medium text-gray-700">Phone</h4>
                   <a
-                    href="tel:+9779826599100"
+                    href="tel:+9779848050892"
                     className="text-blue-600 hover:text-blue-700"
                   >
-                    +977 9826599100
+                    +977 9848050892
                   </a>
                 </div>
               </div>
@@ -102,10 +69,10 @@ export default function ContactComponent() {
                 <div>
                   <h4 className="font-medium text-gray-700">Email</h4>
                   <a
-                    href="mailto:lavshah51@gmail.com"
+                    href="mailto:thakuripawan016@gmail.com"
                     className="text-blue-600 hover:text-blue-700"
                   >
-                    lavshah51@gmail.com
+                    thakuripawan016@gmail.com
                   </a>
                 </div>
               </div>
@@ -118,13 +85,13 @@ export default function ContactComponent() {
               </h4>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/lavshah19"
+                  href="https://github.com/Unpopularpa1"
                   className="p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                 >
                   <Github className="w-5 h-5 text-gray-700" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/lav-shah-8203031b8/"
+                  href="https://www.linkedin.com/in/pawan-shahi/"
                   className="p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                 >
                   <Linkedin className="w-5 h-5 text-gray-700" />
@@ -185,12 +152,11 @@ export default function ContactComponent() {
                 ></textarea>
               </div>
               <button
-                disabled={loading}
-                onClick={handelSubmit}
+                
                 type="submit"
                 className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-medium"
               >
-                {loading ? 'Sending...' : 'Send Message'}
+                Send Message
               </button>
             </form>
           </div>

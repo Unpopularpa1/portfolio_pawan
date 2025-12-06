@@ -12,9 +12,9 @@ import {
 
 const Banner = () => {
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/lavshah19', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/lav-shah-8203031b8/', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:lavshah51@gmail.com', label: 'Email' }
+    { icon: Github, href: 'https://github.com/Unpopularpa1', label: 'GitHub' },
+    { icon: Linkedin, href:'https://www.linkedin.com/in/pawan-shahi/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:thakuripawan016@gmail.com', label: 'Email' }
   ];
 
   return (
@@ -36,19 +36,19 @@ const Banner = () => {
               Hi, I'm{' '}
               <span className="relative">
                 <span className="relative inline-block animate-fade-in">
-                  Lav Shah
+                  Pawan Shahi
                   <div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-300 rounded-full transform origin-left animate-expand-line"></div>
                 </span>
               </span>
             </h1>
 
             <p className="text-xl text-blue-100 font-medium animate-fade-in-up">
-              BSc CSIT Student at Tribhuvan University.
+              BSc.CSIT student at Tribhuvan University.
             </p>
 
             <p className="text-blue-100 text-lg leading-relaxed max-w-md mx-auto md:mx-0 animate-fade-in-up delay-100">
               I'm passionate about technology and software development. Currently pursuing my Bachelor's 
-              degree in Computer Science and Information Technology at TU University, focusing on building 
+              degree in Computer Science and Information Technology at TU University, focusing on building modern and
               innovative solutions that make a difference.
             </p>
 
@@ -96,8 +96,8 @@ const Banner = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-300 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-white/90 shadow-2xl">
                 <img 
-                  src="/lavshah.png"
-                  alt="Lav Shah" 
+                  src="/pawanprofile.jpg"
+                  alt="Pawan Shahi" 
                   className="w-full h-full object-cover transform transition duration-500 group-hover:scale-110"
                 />
               </div>

@@ -14,7 +14,7 @@ const Error404 = () => {
         </p>
         <NavLink to="/">
           <button className="bg-gradient-to-r from-blue-600 to-blue-400 text-white font-semibold py-3 px-8 rounded-xl shadow-lg hover:shadow-blue-500/25 transition-all duration-300">
-            Go Home
+            Go Home 
           </button>
         </NavLink>
       </div>

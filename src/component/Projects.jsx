@@ -14,115 +14,52 @@ const Projects = () => {
   const projects = [
     
     {
-      name: "Lavio — AI Agent",
+      name: "WorkConnect",
       description:
-        "A full-stack AI chat agent built with Next.js 16, LangChain, Prisma, Groq LLMs, and Qdrant. It supports web browsing, image analysis, PDF-grounded answers, Cloudinary uploads, and secure Better Auth sessions with a modern React 19 UI.",
-      link: "https://github.com/lavshah19/lavio-ai-agent",
-      github: "https://github.com/lavshah19/lavio-ai-agent",
+        "A MERN stack job portal connecting job seekers and employers with advanced search and application features. A user who posts a can also view who and how many applied for the job and a user can apply to multiple jobs of their skills, interests and experience",
+      link: "https://github.com/Unpopularpa1/connectingWork",
+      github: "https://github.com/Unpopularpa1/connectingWork",
       tech: [
-        "Next.js 16",
         "React 19",
-        "TypeScript",
-        "LangChain",
-        "LangGraph",
-        "Groq LLMs",
-        "Prisma",
+        "Next.js 16",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
         "MongoDB",
-        "Qdrant",
-        "Cloudinary",
         "Better Auth",
-        "Tailwind CSS",
-        "Radix UI",
-        "Tavily Search",
-      ],
-      image: "/learnly.png",
-      category: "AI / Full Stack",
-    },
-    {
-      name: "Learnly",
-      description:
-        "A full-stack learning management system (LMS) with instructor course creation, bulk media uploads, student enrollment and progress tracking, and eSewa payment integration.",
-      link: "https://learnly-eta.vercel.app",
-      github: "https://github.com/lavshah19/Learnly",
-      tech: ["React", "Node.js", "MongoDB", "Express", "Payment Gateway", "Tailwind"],
-      image: "/learnly.png",
-      category: "full stack",
+        ],
+      image: "/workconnectpic.png",
+      category: "MERN Full Stack",
     },
 
-    {
-      name: "PDF-Chat-Assistant (RAG)",
-      description:
-        "A PDF-based chat assistant that retrieves relevant content from uploaded PDFs using LangChain JS, Qdrant, HuggingFace embeddings, Groq LLaMA, BullMQ, and Next.js.",
-      link: "https://github.com/lavshah19/PDF-Chat-Assistant",
-      github: "https://github.com/lavshah19/PDF-Chat-Assistant",
-      tech: [
-        "Next.js",
-        "Tailwind CSS",
-        "LangChain JS",
-        "Qdrant",
-        "Hugging Face Embeddings",
-        "Groq LLaMA",
-        "BullMQ",
-        "Valkey",
-      ],
-      image: "/pdfchat.png",
-      category: "AI / RAG",
-    },
-
-    {
+     {
       name: "Task Arena",
       description:
         "A full-stack productivity web app combining personal task management with challenge-based goal tracking to help users stay consistent and competitive.",
       link: "https://github.com/lavshah19/task-arena",
       github: "https://github.com/lavshah19/task-arena",
       tech: ["React", "Node.js", "MongoDB", "Express"],
-      image: "/task-arena.png",
+      image: "/portfolioss.png",
       category: "full stack",
-    },
+    },    
+
 
     {
-      name: "Image Gallery MERN",
+      name: "Movie_Recommendation",
       description:
-        "A full-stack MERN image gallery app where users can register, log in, upload images, like photos, and leave comments (admin upload only).",
-      link: "https://github.com/lavshah19/Image-gallery-MERN-",
-      github: "https://github.com/lavshah19/Image-gallery-MERN-",
-      tech: ["React", "Express", "MongoDB", "Node.js"],
-      image: "/image-project.png",
-      category: "web app",
+        "A movie recommendation frontend only application which recommends movies to user and user can also search for movie. This application uses TMDB APIs for recommending movies.",
+      link: "https://github.com/Unpopularpa1/movie-recommendation-.git",
+      github: "https://github.com/Unpopularpa1/movie-recommendation-.git",
+      tech: [
+        "React",
+        "Tailwind CSS",
+        "TMDB API",
+      ],
+      image: "/moviepic1.png",
+      category: "React",
     },
 
-    {
-      name: "Promptly AI",
-      description:
-        "A lightweight AI chat application built with React, Node.js, Express, and the Gemini API.",
-      link: "https://github.com/lavshah19/Promptly-MERN-AI",
-      github: "https://github.com/lavshah19/Promptly-MERN-AI",
-      tech: ["React", "Node.js", "Express", "Gemini API"],
-      image: "/promptly.png",
-      category: "AI Chat App",
-    },
-
-    {
-      name: "Whispr GraphQL Project",
-      description:
-        "A full-stack GraphQL application where users send anonymous messages with song choices. Built with React, GraphQL, Apollo Server, and Node.js.",
-      link: "https://github.com/lavshah19/Whispr-GraphQL-project",
-      github: "https://github.com/lavshah19/Whispr-GraphQL-project",
-      tech: ["React", "GraphQL", "Apollo Server", "Node.js"],
-      image: "/allmsg.png",
-      category: "web app",
-    },
-
-    {
-      name: "Chat App",
-      description:
-        "A real-time chat application built with Node.js, Socket.io, and Vanilla JS including online user list and typing indicators.",
-      link: "https://github.com/lavshah19/chat-app",
-      github: "https://github.com/lavshah19/chat-app",
-      tech: ["Express.js", "Socket.io", "Node.js"],
-      image: "/chat-app.png",
-      category: "web app",
-    },
+   
   ];
 
   return (

@@ -14,19 +14,19 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/lavshah19",
+      href: "https://github.com/Unpopularpa1",
       label: "GitHub",
       color: "hover:text-gray-400"
     },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/lav-shah-8203031b8/",
+      href: "https://www.linkedin.com/in/pawan-shahi/",
       label: "LinkedIn",
       color: "hover:text-blue-400"
     },
     {
       icon: Mail,
-      href: "mailto:lavshah51@gmail.com",
+      href: "mailto:thakuripawan016@gmail.com",
       label: "Email",
       color: "hover:text-red-400"
     }
@@ -45,10 +45,10 @@ const Footer = () => {
             <motion.div className="space-y-4" variants={{ hidden: { opacity: 0, y: 8 }, show: { opacity: 1, y: 0 } }}>
               <div className="flex items-center gap-2">
                 <Code className="w-6 h-6 text-white" />
-                <h3 className="text-xl font-bold text-white">Lav Shah</h3>
+                <h3 className="text-xl font-bold text-white">Pawan Shahi</h3>
               </div>
               <p className="text-blue-100/80 text-sm">
-                BSc CSIT Student at Tribhuvan University, passionate about creating innovative solutions through code.
+                BSc.CSIT student at Tribhuvan University, passionate about creating modern and innovative solutions through code.
               </p>
             </motion.div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
                 <a href="/projects" className="text-blue-100/80 hover:text-white transition-colors duration-200">Projects</a>
                 <a href="skills" className="text-blue-100/80 hover:text-white transition-colors duration-200">Skills</a>
                 <a href="contact" className="text-blue-100/80 hover:text-white transition-colors duration-200">Contact</a>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-100/80 hover:text-white transition-colors duration-200">Resume</a>
+                <a href="/PawanShahi_resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-100/80 hover:text-white transition-colors duration-200">Resume</a>
                
               </div>
             </motion.div>
@@ -102,7 +102,7 @@ const Footer = () => {
           <motion.div className="max-w-6xl mx-auto px-4 py-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="flex items-center gap-2 text-blue-100/80">
-                <span>&copy; {new Date().getFullYear()} Lav Shah.</span>
+                <span>&copy; {new Date().getFullYear()} pawan shahi</span>
                 <span className="flex items-center gap-1">
                   Made with <Heart className="w-4 h-4 text-red-400" /> and <Coffee className="w-4 h-4 text-amber-400" />
                 </span>

@@ -14,13 +14,13 @@ import {
 
 const About = () => {
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/lav-shah-8203031b8/", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com/lavshah19", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/pawan-shahi/", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Unpopularpa1", label: "GitHub" },
     { icon: Instagram, href: "https://www.instagram.com", label: "Instagram" }
   ];
 
   const personalInfo = [
-    { icon: Calendar, label: "Born", value: "2002" },
+    { icon: Calendar, label: "Born", value: "2004" },
     { icon: GraduationCap, label: "Education", value: "BSc CSIT" },
     { icon: Building2, label: "University", value: "Tribhuvan University" }
   ];
@@ -48,15 +48,15 @@ const About = () => {
                 <div className="relative w-32 h-32 mx-auto mb-6">
                   <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full blur opacity-75"></div>
                   <img 
-                    src="/lavshah.png"
-                    alt="Lav Shah"
+                    src="/pawanprofile.jpg"
+                    alt="Pawan Shahi"
                     className="relative rounded-full w-full h-full object-cover border-4 border-white"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                  Lav Shah
+                  Pawan Shahi
                 </h3>
-                <p className="text-blue-600 font-medium">BSc CSIT Student</p>
+                <p className="text-blue-600 font-medium">BSc.CSIT student</p>
               </div>
 
               {/* Social Links */}
@@ -99,22 +99,20 @@ const About = () => {
               <div className="flex items-center gap-3 mb-6">
                 <Sparkles className="text-blue-600" size={24} />
                 <h3 className="text-2xl font-bold text-gray-900">
-                  Hi, I'm <span className="text-blue-600">Lav Shah</span>
+                  Hi, I'm <span className="text-blue-600">Pawan Shahi</span>
                 </h3>
               </div>
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  A passionate coder and a <span className="font-medium text-gray-900">BSc CSIT student at Tribhuvan University</span>, 
-                  born in 2002. I'm currently pursuing my Bachelor's degree in 
-                  <span className="font-medium text-gray-900"> Computer Science and Information Technology (CSIT)</span>.
+                  A <span className="font-medium text-gray-900">BSc CSIT student at Tribhuvan University and a passionate coder.</span>, 
+                  I'm currently pursuing my Bachelor's degree in <span className="font-medium text-gray-900">Computer Science and Information Technology (CSIT)</span>.
                 </p>
 
                 <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-xl">
                   <Code2 className="text-blue-600 mt-1" size={20} />
                   <p>
-                    My journey began with <span className="font-medium">HTML</span>, <span className="font-medium">CSS</span>, 
-                    and <span className="font-medium">JavaScript</span>. I'm deeply interested in web development, 
+                    My journey began with <span className="font-medium">HTML</span>, <span className="font-medium">CSS</span>, <span className="font-medium">JavaScript</span>. I'm deeply interested in web development, 
                     currently focusing on the <span className="font-medium">MERN stack</span>.
                   </p>
                 </div>
@@ -123,15 +121,15 @@ const About = () => {
                   <Brain className="text-purple-600 mt-1" size={20} />
                   <p>
                     I also explore <span className="font-medium">AI integration</span> into web development 
-                    to create more intelligent and dynamic websites.
+                    to create more modern, intelligent and dynamic websites.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3 p-4 bg-green-50 rounded-xl">
                   <Globe className="text-green-600 mt-1" size={20} />
                   <p>
-                    My goal is to become a top web developer and contribute to the tech community 
-                    by creating innovative solutions that make a difference.
+                    My goal is to become a Full Stack web developer and contribute to the tech community 
+                    by creating modern innovative solutions that make a difference.
                   </p>
                 </div>
               </div>
